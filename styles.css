@@ -617,3 +617,40 @@ iframe {
   border-radius: 10px;
   margin: 0 10px;
 }
+
+.FAQs {
+  background-color: #363738;
+  color: #f1f2f3;
+}
+
+.FAQs>.section-header>.section-title {
+  color: #f1f2f3;
+}
+
+.faqs-collection {
+  width: 100%;
+}
+
+details {
+  margin-bottom: 20px;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232323;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.view-all-button {
+  flex: 1;
+  width: 100%;
+  text-align: end;
+  font-size: 15px;
+  background-color: #232323;
+  color: #f1f2f3;
+}
