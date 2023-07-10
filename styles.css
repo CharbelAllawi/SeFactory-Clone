@@ -799,3 +799,70 @@ summary {
   flex-flow: column wrap;
   gap: 1em;
 }
+
+.partners {
+  background-color: #fcfcfe;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  height: 150px;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.partners-logos>img {
+  height: 80px;
+  max-width: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.newsletter {
+  background-color: #363739;
+  flex-flow: row wrap;
+}
+
+.newsletter-left {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 425px;
+}
+
+.newsletter-right {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  height: 1.5em;
+}
+
+.newsletter>.newsletter-left>.section-header>.section-title {
+  color: #f4ffff;
+}
+
+.sub-text {
+  font-size: 0.5em;
+  font-weight: 100;
+  color: #a0a59f;
+}
+
+.sub-email {
+  padding: 13px 10px;
+  max-width: 250px;
+  max-height: 50px;
+}
+
+.sub-btn {
+  font-size: 0.5em;
+}
+
+.header-buttonssub-btn {
+  margin-left: 30px;
+  background: #363739;
+  color: white;
+}
