@@ -472,3 +472,68 @@ iframe {
   flex-flow: column wrap;
   justify-content: space-between;
 }
+
+
+.hire-talent {
+  background-color: #343333;
+}
+
+.hire-talent .section-text {
+  color: #f1f2f3;
+}
+
+
+.hire-talent-container {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  gap: 1em;
+}
+
+.hire-talent-body {
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.hire-talent-body,
+.HT-learn-more-box {
+  flex: 1;
+  background-color: #232323;
+  color: #f1f2f3;
+}
+
+
+.hire-talent-body>h6 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.inbox-info-HT {
+  background-color: #363738;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px;
+  width: fit-content;
+}
+
+.HT-list {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.HT-checkout-box {
+  background-color: #232323;
+  display: flex;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  gap: 20px;
+  justify-content: end;
+}
+
+.HT-checkout-text {
+  padding-top: 10px;
+  color: #f1f2f3;
+  font-weight: 500;
+}
