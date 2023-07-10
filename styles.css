@@ -14,11 +14,12 @@
   --black-color: #232323;
 }
 
-#logo {
-  position: absolute;
-  margin-left: 390px;
-  margin-top: 500x;
+.logo {
+  position: relative;
+  top: -200px;
+  left: 110px;
   width: 187px;
+
 }
 
 body {
